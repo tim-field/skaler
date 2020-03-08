@@ -9,7 +9,7 @@ type Options = {
 export default function skaler(
   file: File,
   { scale, width, height, name = file.name, type = file.type }: Options = {}
-) {
+): Promise<File> {
   return new Promise((res, rej) => {
     const reader = new FileReader();
     reader.readAsDataURL(file);
