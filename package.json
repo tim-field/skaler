@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "start": "http-server demo --silent -o & npm run watch",
-    "watch": "microbundle watch --format umd --entry demo/src/index.js --output demo/dist/bundle.js",
+    "watch": "microbundle watch --format umd --entry demo/src/index.ts --output demo/dist/bundle.js",
     "build": "microbundle --name skaler --format es,umd --sourcemap false",
     "prepare": "npm run build"
   },
