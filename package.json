@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "repository": "terkelg/skaler",
   "description": "A 329B client-side image resizer.",
+  "source": "src/index.ts",
   "main": "dist/skaler.mjs",
   "module": "dist/skaler.mjs",
   "unpkg": "dist/skaler.umd.js",
